@@ -331,7 +331,7 @@ public class MapActivity extends AppCompatActivity implements OnMapReadyCallback
         Projection proj = mMapView.getMap().getProjection();
         Point startPoint = proj.toScreenLocation(marker.getPosition());
         final LatLng startLatLng = proj.fromScreenLocation(startPoint);
-        final long duration = 300;
+        final long duration = 500;
 
         final Interpolator interpolator = new LinearInterpolator();
 
